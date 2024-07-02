@@ -1,3 +1,13 @@
+:root {
+  --background-color: #131415;
+  --fields-background: #282a2d;
+  --card-background: #323539;
+  --button-color: #ffd37d;
+  --font-color: #fff;
+  --opacity-color: #6c6d70;
+  --main-font: Arial, Helvetica, sans-serif;
+}
+
 * {
   box-sizing: border-box;
   padding: 0;
