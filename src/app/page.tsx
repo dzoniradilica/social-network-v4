@@ -1,10 +1,13 @@
+import Input from "./components/UI/Input";
+
 export default function Login() {
   return (
-    <form>
-      <div>
-        <label htmlFor="login_email">Email:</label>
-        <input type="email" name="login_email" id="login_email" />
-      </div>
-    </form>
+    <div className="center">
+      <form className="form">
+        <h2>Login</h2>
+        <Input inputName="Email" name="login_email" type="email" />
+        <Input inputName="Password" name="login_password" type="password" />
+      </form>
+    </div>
   );
 }
